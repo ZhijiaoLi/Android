@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="zhijiaoli.myapp.MainActivity"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etGoalMoney"
+        android:hint="请输入你的目标"
+        android:textSize="10dp"
+        android:inputType="none"
+        android:textColor="#0ff0ff"
+        android:layout_margin="10px"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:id="@+id/btAddMoney"
+        android:text="点击我一次可以赚一元！"
+        android:textSize="10dp"
+        android:background="#110fff"/>
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:id="@+id/btDecMoney"
+        android:text="点击我一次少一元！"
+        android:textSize="10dp"
+        android:background="#ff99ff"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="通过努力你已经有....."
+        android:textColor="#d71111"
+        android:textSize="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/tvMoney"/>
+</LinearLayout>
